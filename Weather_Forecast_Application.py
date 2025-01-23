@@ -1,18 +1,3 @@
-#DSC 510
-#Week 10
-#Final Project
-#Author Maria Couto
-#8/8/2023
-
-#Change Control Log
-#Change Number : 1
-#Change(s) Made: New Program Requirements
-#Date of Change: 8/8/2023
-#Author: Maria Couto
-#Change Approved by: Michael Eller
-#Date Moved to Production: 8/8/2023
-
-
 import requests #this library in python enables us to connect to api as an HTTP client
 
 api_url = "https://api.openweathermap.org/data/2.5/weather"
