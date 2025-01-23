@@ -2,7 +2,7 @@ import requests #this library in python enables us to connect to api as an HTTP 
 
 api_url = "https://api.openweathermap.org/data/2.5/weather"
 
-api_key = "96cc6c72e14ebe05d010e98ed956389a" #hardcoding the api to variable helps ensure accuracy
+api_key = "xxxxxxxxxxx" #hardcoding the api to variable helps ensure accuracy
 
 def get_coordinates(location): #first call requirement
     url = f"{api_url}?q={location}&appid={api_key}"
